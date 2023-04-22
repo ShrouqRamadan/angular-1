@@ -1,0 +1,18 @@
+<div class="row mt-4 g-2">
+    <div class="col-lg-3 my-2" *ngFor="let item of posts | slice : 0: 10">
+        <div class="card">
+            <div class="card-body">
+                <img src="{{item.image}}"  class="w-100 " alt="">
+                <h5 class="text-white">{{item.title | slice:0:10}}</h5>
+                <p class="text-white">{{item.description | slice:0:20}}</p>
+                <h6 class="text-white">{{item.price}}$</h6>
+
+                <button class="btn " routerLink="/posts/{{item.id}}">
+                    Details
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <h1>{{global.AppTitle}}</h1> -->

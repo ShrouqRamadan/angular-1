@@ -1,0 +1,14 @@
+.card-body{
+    background-color: #F6CDDD;
+   border-radius: 10px;
+   text-align: center;
+}
+.card-body img{
+
+   
+    height: 250px;
+}
+.btn{
+    background-color:whitesmoke;
+    color: #F6CDDD;
+}

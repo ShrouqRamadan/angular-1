@@ -1,0 +1,51 @@
+
+header {
+    height: 100vh;
+    background-image: url(src/assets/image/hero-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header-caption {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.header-caption p {
+    font-size: 20px;
+}
+
+.header-caption h2 {
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+.header-caption button {
+    background-color: #F890B7;
+    color: #EAE5E7;
+    border: 0;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 1s;
+}
+
+.header-caption button:hover {
+    background-color: #EAE5E7;
+    color: #F890B7;
+}
+
+.products{
+    /* background-color: aquamarine; */
+    text-align: center;
+    overflow: auto
+}
+.products h2{
+   margin-top: 20px;
+   font-size: 40px;
+   color: #F890B7;
+}

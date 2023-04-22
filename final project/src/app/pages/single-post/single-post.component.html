@@ -1,0 +1,35 @@
+<div class="description">
+    
+        <!-- <div class="col-8">
+            <div class="alert alert-info">
+                <img src="{{singlePost?.image}}"  class="w-100 " alt="">
+                <h2>{{singlePost?.title}}</h2>
+                <p>{{singlePost?.description}}</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <h3>Latest posts</h3>
+            <div class="alert alert-info" *ngFor="let item of posts | slice : -3" routerLink="/posts/{{item.id}}">{{item.title}}</div>
+        </div> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="item">
+                  <img src="{{singlePost?.image}}" class="w-100" alt="">
+                </div>
+              </div> 
+            <div class="col-lg-5">
+                <div class="item-description">
+                  <h2>Title{{singlePost?.title |slice:0:5}}</h2>
+                  <p>Description{{singlePost?.description}}</p>
+                  <h3>price{{singlePost?.price}}</h3>
+                </div>
+              </div> 
+              
+              
+        </div>
+       
+    </div>
+        
+</div>
+
